@@ -14,12 +14,22 @@
 
 //Data Object type
 
-let Phone = {
-    model:'iPhone 11 pro Max',
-    storage:'256 GB',
-    color:'Black',
-};
+// let Phone = {
+//     model:'iPhone 11 pro Max',
+//     storage:'256 GB',
+//     color:'Black',
+// };
+//
+// document.getElementById('change').innerHTML= Phone.model;
+// console.log(Phone)
 
-document.getElementById('change').innerHTML= Phone.model;
-console.log(Phone)
+//Operator Precedence () {} [] / * - + = >
 
+let now = 2022;
+let myAge = 1996;
+let fullAge = 21;
+
+let isFullAge = now - myAge >= fullAge;
+
+document.getElementById('change').innerHTML= isFullAge;
+console.log(isFullAge)
