@@ -4,11 +4,22 @@
 //
 //
 // document.getElementById('change').innerHTML= 'Hi... I am' +' '+name+' I am '+age+' years old';
-//Data type
+//Data Array type
 
-let Phone = ['Apple','Samsung','OnePlus'];
-Phone[3]='Nokia';
+// let Phone = ['Apple','Samsung','OnePlus'];
+// Phone[3]='Nokia';
+//
+// document.getElementById('change').innerHTML= Phone[0];
+// console.log(Phone)
 
-document.getElementById('change').innerHTML= Phone[0];
+//Data Object type
+
+let Phone = {
+    model:'iPhone 11 pro Max',
+    storage:'256 GB',
+    color:'Black',
+};
+
+document.getElementById('change').innerHTML= Phone.model;
 console.log(Phone)
 
