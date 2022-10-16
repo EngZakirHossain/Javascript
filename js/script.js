@@ -6,8 +6,9 @@
 // document.getElementById('change').innerHTML= 'Hi... I am' +' '+name+' I am '+age+' years old';
 //Data type
 
-let phone = 'onePlus'+7;
+let Phone = ['Apple','Samsung','OnePlus'];
+Phone[3]='Nokia';
 
-document.getElementById('change').innerHTML= phone;
-console.log('onePlus')
+document.getElementById('change').innerHTML= Phone[0];
+console.log(Phone)
 
